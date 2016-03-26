@@ -42,7 +42,7 @@ if [ $? -ne 0 ] ; then exit $? ; fi
 echo "done!"
 
 # Rebuild the depencies and run all the tests on remote host.
-ssh eric@yucca.limulus.net "cd $EXTRACTDIR && cp -dr $INSTALLDIR/node_modules . && npm update && npm prune && make && npm test"
+ssh eric@yucca.limulus.net "cd $EXTRACTDIR && cp -dr $INSTALLDIR/node_modules . && npm prune && npm install && npm test"
 if [ $? -ne 0 ] ; then exit $? ; fi
 
 # Stop the service, move files in place, start service back up.
