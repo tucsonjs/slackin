@@ -1,4 +1,67 @@
 
+0.8.3 / 2016-03-08
+==================
+
+  * fix postMessage({}, '*') causes slackin to throw [@laughinghan]
+  * add IBM Bluemix Deploy badge [@kevinSuttle]
+  * add `?large` to `/iframe` and `/iframe/dialog` [@laughinghan]
+  * convert dialog dimensions to em/rem for adjustability #prepwork [@laughinghan]
+  * fix redirecting already-registered users from iframe dialog [@laughinghan]
+  * add "or sign in" link to iframe too [@laughinghan]
+  * render a hidden form field for a single channel [@nickstenning]
+  * add .travis.yml [@jszwedko]
+  * fix test for successful invite [@jszwedko]
+  * update `babel-register` module name in mocha opts [@jszwedko]
+  * update readme for babel 6 change [@danreeves]
+  * shorten already-invited message [@MaxWofford]
+  * add success message for already signed up users [@MaxWofford]
+  * fix max listeners warnings [Hardeep Shoker]
+
+0.8.2 / 2016-01-13
+==================
+
+  * use better supported anonymous function syntax [WouterSioen]
+  * bump socket.io
+
+0.8.1 / 2016-01-06
+==================
+
+  * index: fix `import` order issue
+
+0.8.0 / 2016-01-06
+==================
+
+  * bump socket.io to 1.4.0 for sec advisory
+  * add deploy to Azure Button
+  * build: Update builds to use gulp and babel6 (Fixes #122)
+  * adds instructions for deploying to Cloud Foundry
+  * redirect signed up users to Slack
+  * fix --path option parsing
+
+0.7.3 / 2015-11-29
+==================
+
+  * package: bump `socket.io` to fix build issue
+
+0.7.2 / 2015-11-29
+==================
+
+  * fix rendering of badge in non-chrome
+
+0.7.1 / 2015-11-19
+==================
+
+  * fix inline badge styles
+
+0.7.0 / 2015-11-19
+==================
+
+  * badge: make badge work for users with lots of users
+  * splash: fix hover color – thank goodness
+  * relative path hosting support
+  * fix tests
+  * add support for codes of conduct
+
 0.6.0 / 2015-10-05
 ==================
 
